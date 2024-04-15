@@ -1,0 +1,49 @@
+baseURL = 'https://mrebuffet.net/'
+languageCode = 'en-us'
+title = 'M365 Development | Azure | Architecture'
+theme = 'beautifulhugo'
+
+[params]
+  color = 'gray'
+  twitter = 'rebuf'
+  github = 'mrebuffet'
+  linkedin = 'mathieu-rebuffet'
+  rss = true
+  monoDarkIcon = true
+  avatar = 'https://avatars.githubusercontent.com/u/3445077?v=4'                 # gravatar email or image url //
+  logo = 'https://avatars.githubusercontent.com/u/3445077?v=4'
+  name = 'Mathieu Rebuffet'
+  bio = 'Passionate developer with 20 years of experience'
+  subtitle = "Build a beautiful and simple website in minutes"
+  mainSections = ["post","posts"]
+  comments = true
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
+  author.name = 'Mathieu Rebuffet'
+
+[Author]
+  # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
+  name = "Mathieu Rebuffet"
+  website = "mrebuffet.net"
+  github = "mrebuffet"
+  twitter = "rebuf"
+  linkedin = "mathieu-rebuffet"
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 3
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3
